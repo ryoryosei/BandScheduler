@@ -1,0 +1,77 @@
+body {
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    min-width: 150%; /* コンテナの幅を100%に */
+    padding: 0 10px; /* 左右の余白をなくす */
+}
+
+.table {
+    margin-top: 20px;
+    width: 100%; /* テーブルの幅を100%に */
+    overflow-x: auto; /* テーブルが画面からはみ出す場合にスクロール可能に */
+    table-layout: fixed;
+}
+
+.form-check-input {
+    transform: scale(1.5);
+    margin: 0.5rem;
+}
+
+.btn-lg {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+}
+
+.table thead th {
+    background-color: #343a40;
+    color: #fff;
+}
+
+.table-bordered {
+    border: 1px solid #dee2e6;
+}
+
+.table-bordered th, .table-bordered td {
+    border: 1px solid #dee2e6;
+    padding: 0.5rem; /* セルの余白を調整 */
+    vertical-align: middle; /* チェックボックスを中央に配置 */
+}
+
+.table th {
+    font-size: 0.8rem; /* ヘッダーのフォントサイズを小さくする */
+    white-space: nowrap; /* ヘッダーのテキストを折り返さない */
+}
+
+/* レスポンシブデザイン */
+@media (max-width: 768px) {
+    .table thead th {
+        font-size: 0.7rem; /* ヘッダーのフォントサイズを小さくする */
+    }
+    .table-bordered th, .table-bordered td {
+        padding: 0.25rem; /* セルの余白を調整 */
+    }
+}
+
+@media (max-width: 480px) {
+    .table {
+        width: 100%;
+        display: block; /* テーブルをブロック要素にして、中央寄せにする */
+        overflow-x: auto; /* 横スクロールを許可 */
+    }
+    .table thead th {
+        font-size: 0.6rem; /* ヘッダーのフォントサイズをさらに小さくする */
+        white-space: nowrap; /* ヘッダーのテキストを折り返さない */
+    }
+    .table-bordered th, .table-bordered td {
+        padding: 0.25rem; /* セルの余白を調整 */
+        white-space: nowrap; /* テキストを折り返さない */
+    }
+    .form-check-input {
+        transform: scale(1.2); /* チェックボックスのサイズを調整 */
+    }
+}

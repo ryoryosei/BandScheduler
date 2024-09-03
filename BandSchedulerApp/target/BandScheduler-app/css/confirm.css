@@ -1,0 +1,51 @@
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 1.5rem;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.schedule {
+    margin-bottom: 40px;
+}
+
+.table {
+    margin-bottom: 0;
+}
+
+thead.thead-dark th {
+    background-color: #343a40;
+    color: #fff;
+}
+
+.table-bordered {
+    border: 1px solid #dee2e6;
+}
+
+.table-bordered th, .table-bordered td {
+    border: 1px solid #dee2e6;
+}
+
+@media (max-width: 576px) {
+    .container {
+        padding: 0 15px;
+    }
+
+    h2, h3 {
+        font-size: 1.25rem;
+    }
+}

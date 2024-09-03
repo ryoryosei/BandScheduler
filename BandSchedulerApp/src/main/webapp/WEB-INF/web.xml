@@ -1,0 +1,53 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+
+  <display-name>BandSchedule</display-name>
+  
+  <servlet>
+    <description></description>
+    <display-name>LoginServlet</display-name>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>control.LoginServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <description></description>
+    <display-name>SignupServlet</display-name>
+    <servlet-name>SignupServlet</servlet-name>
+    <servlet-class>control.SignupServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description></description>
+    <display-name>DaysServlet</display-name>
+    <servlet-name>DaysServlet</servlet-name>
+    <servlet-class>control.DaysServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description></description>
+    <display-name>FormServlet</display-name>
+    <servlet-name>FormServlet</servlet-name>
+    <servlet-class>control.FormServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description></description>
+    <display-name>ConfirmServlet</display-name>
+    <servlet-name>ConfirmServlet</servlet-name>
+    <servlet-class>control.ConfirmServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description></description>
+    <display-name>DeleteServlet</display-name>
+    <servlet-name>DeleteServlet</servlet-name>
+    <servlet-class>control.DeleteServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>BringServlet</servlet-name>
+  	<display-name>BringServlet</display-name>
+  	<description></description>
+  	<servlet-class>control.BringServlet</servlet-class>
+  </servlet>
+  
+</web-app>

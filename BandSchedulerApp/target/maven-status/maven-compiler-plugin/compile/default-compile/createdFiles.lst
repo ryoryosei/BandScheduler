@@ -1,0 +1,6 @@
+control\LoginServlet.class
+control\DaysServlet.class
+control\DeleteServlet.class
+control\FormServlet.class
+control\ConfirmServlet.class
+control\SignupServlet.class
